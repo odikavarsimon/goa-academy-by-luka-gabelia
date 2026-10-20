@@ -1,0 +1,34 @@
+.box1 {
+    width: 150px;
+    height: 150px;
+    background-color: lightblue;
+    transition: transform 0.5s ease;
+}
+
+.box1:hover {
+    transform: translate(200px, 150px);
+}
+
+.box2 {
+    width: 150px;
+    height: 150px;
+    background-color: lightcoral;
+    margin-top: 30px;
+    transition: transform 0.5s ease;
+}
+
+.box2:hover {
+    transform: scale(2.5);
+}
+
+.box3 {
+    width: 150px;
+    height: 150px;
+    background-color: lightgreen;
+    margin-top: 30px;
+    transition: transform 0.5s ease;
+}
+
+.box3:hover {
+    transform: skew(30deg, 45deg);
+}
