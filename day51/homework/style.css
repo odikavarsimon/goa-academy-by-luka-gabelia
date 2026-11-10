@@ -1,0 +1,21 @@
+div {
+    width: 150px;
+    height: 100px;
+    background-color: blue;
+    color: white;
+    margin: 50px;
+    align-items: center;
+    transition: transform 100s;
+
+}
+.box1:hover{
+    
+    transform: translate(200px, 150px);
+
+
+}
+
+
+
+
+

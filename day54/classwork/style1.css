@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+}
+
+#cont {
+  background-color: red;
+  width: 350px;
+  height: 350px;
+  border: 2px solid black;
+  transition: all 0.4s;
+}
+
+#cont:hover {
+  background-color: green;
+  border: 2px solid blue;
+  cursor: pointer;
+}
+
+button {
+  padding: 5px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 10px;
+  transition: all 0.4s;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: black;
+  color: white;
+  transform: scale(1.05);
+}
+

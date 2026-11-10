@@ -1,0 +1,12 @@
+.box {
+    width: 400px;
+    height: 400px;
+    background-color: blue;
+    border: 1px solid black;
+    transition: 1s;
+}
+
+.box:hover {
+    background-color: purple;
+    border: 5px dotted red;
+}

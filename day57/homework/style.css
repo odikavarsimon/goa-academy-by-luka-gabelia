@@ -1,0 +1,58 @@
+body {
+    background-color: aqua;
+
+
+}
+
+h1 {
+    color: aquamarine;
+
+
+}
+
+
+.box {
+    width: 70px;
+    height: 70px;
+    background-color: salmon;
+    border-radius:50px ;
+    animation: move 1s infinite;
+    position: absolute;
+
+
+}
+
+@keyframes move {
+
+0% {
+    top: 0;
+    left: 0;
+
+}
+
+50% {
+    top: 110px;
+    left: 110px;
+
+}
+
+100% {
+    top: 220px;
+    left: 220px;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
